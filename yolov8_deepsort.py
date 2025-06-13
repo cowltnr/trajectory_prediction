@@ -38,7 +38,7 @@ i = 0
 counter, fps, elapsed = 0, 0, 0
 start_time = time.perf_counter()
 
-model = YOLO("./best.pt")  # load a pretrained model (recommended for training)
+model = YOLO("./runs/detect/test4/weights/best.pt")  # load a pretrained model (recommended for training)
 
 while cap.isOpened():
     ret, frame = cap.read()
