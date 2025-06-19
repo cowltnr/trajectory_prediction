@@ -140,4 +140,4 @@ cv2.destroyAllWindows()
 
 
 
-# https://github.com/AarohiSingla/Tracking-and-counting-Using-YOLOv8-and-DeepSORT/tree/main 참고
+# https://github.com/AarohiSingla/Tracking-and-counting-Using-YOLOv8-and-DeepSORT/ 참고
