@@ -2,7 +2,7 @@
 <https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71755>
 <br/><br/>
 
-## Preprocessing to Yolo Format
+## Preprocessing to YOLO Format
 You can preprocess aihub data to YOLO format by running `"preprocessing.ipynb"` file.
 <br/><br/>
 
