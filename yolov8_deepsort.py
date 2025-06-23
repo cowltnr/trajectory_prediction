@@ -5,7 +5,7 @@ import time
 from ultralytics import YOLO
 import numpy as np
 
-deep_sort_weights = './deep_sort/deep/checkpoint/ckpt.t7'
+deep_sort_weights = './deep_sort/deep/checkpoint/ckpt.t7'  # "https://github.com/ZQPei/deep_sort_pytorch"
 tracker = DeepSort(model_path=deep_sort_weights, max_age=70)
 
 # Define the video path
@@ -38,7 +38,7 @@ i = 0
 counter, fps, elapsed = 0, 0, 0
 start_time = time.perf_counter()
 
-model = YOLO("./runs/detect/train4/weights/best.pt")  # load a pretrained model (recommended for training) "https://github.com/ZQPei/deep_sort_pytorch"
+model = YOLO("./runs/detect/train4/weights/best.pt")  # load a pretrained model (recommended for training) 
 
 while cap.isOpened():
     ret, frame = cap.read()
